@@ -1,0 +1,13 @@
+###create a new patient entity
+GET https://localhost:4000/patients
+Content-Type: application/json
+
+{
+  "name": "Sudhanshu Singh",
+  "email": "random@example.com",
+  "address": "123 main street22",
+  "dateOfBirth": "2003-01-06",
+  "registeredDate": "2025-11-28"
+}
+
+###
